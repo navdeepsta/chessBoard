@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+.container {
+    margin: 40px auto;
+    display: grid;
+    width: 32rem;
+    height: 32rem;
+    background-color: #888888;
+    border: 2px solid black;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-gap: 1px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #33333355;
+    color:#777;
+    font-weight: bold;
+    font-size: 20px;
+
+}
